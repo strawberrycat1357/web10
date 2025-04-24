@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px; 
+        }
+
+        .justify-start {
+            justify-content: flex-start;
+        }
+
+        .justify-end {
+            justify-content: flex-end;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .justify-around {
+            justify-content: space-around;
+        }
+
+        .item {
+            background: cyan;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container justify-start">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+    <div class="container justify-end">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+    <div class="container justify-center">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+    <div class="container justify-between">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+
+    <div class="container justify-around">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+          }
+          body {
+            width: 100%; 
+            min-width: 600px; 
+            max-width: 960px;		
+            background: beige;
+            margin: 0 auto;
+          }	
+          header {
+            width: 100%;	  
+            background: #eaeaea;		
+          }	  
+          .flexcontainer {
+          display: flex;
+          justify-content: space-between;
+          }
+          .flexitem
+          {
+            width: 32%;
+            height: 300px;
+            background:lightgreen;
+          }
+          footer {
+            width: 100%;
+            background: #eaeaea;		
+            clear: both;        
+          }	
+        </style>
+</head>
+<body>
+    <header><h1>頁首</h1></header>
+    <div class="flexcontainer">
+    <div class="flexitem"><h1>區塊1</h1></div>
+    <div class="flexitem"><h1>區塊2</h1></div>
+    <div class="flexitem"><h1>區塊3</h1></div>
+    </div>
+       
+   
+    <footer><h1>頁尾</h1></footer>
+</body>
+</html>
